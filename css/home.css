@@ -7,7 +7,10 @@ body {
     position: relative;
     width: 100%;
     height: 180px;
-    background-color: rgb(27, 18, 37);
+    /* background-color: rgb(27, 18, 37); */
+    background: -moz-linear-gradient(top, rgb(44, 40, 82), rgb(27, 18, 37));
+    background: -webkit-linear-gradient(top, rgb(44, 40, 82), rgb(27, 18, 37));
+    background: linear-gradient(to bottom, rgb(44, 40, 82), rgb(27, 18, 37));
 }
 
 .tittle h1 {
@@ -104,6 +107,26 @@ body {
     margin-top: 5px;
     transform: translateX(95px);
     color: rgb(62, 59, 94);
+}
+
+.top_image_hover1_clip {
+    position: absolute;
+    top: 120px;
+    left: 23px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.fade1 img {
+    transition-duration: 1.0s;
+    filter: blur(0px);
+    filter: brightness(1);
+}
+
+.fade1 img:hover {
+    filter: blur(6px) brightness(0.9);
 }
 
 a {
