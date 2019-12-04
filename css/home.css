@@ -146,3 +146,11 @@ iframe {
     border: none;
     transform: scale(0.8);
 }
+
+.info_1 {
+    margin: 150px 0;
+    width: 70%;
+    height: 400px;
+    background-color: rgb(25, 50, 74);
+    margin-left: 30%;
+}
