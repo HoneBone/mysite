@@ -104,13 +104,45 @@ h2 {
 .p1 {
     color: white;
     margin: 0;
+    margin-top: 60px;
     font-size: 30px;
     font-family: 'Quicksand';
     font-weight: lighter;
-    margin-top: 60px;
-    margin-left: 10px;
 }
 
 .h3_info {
+    position: absolute;
     margin-left: 100px;
+}
+
+.box_d1 {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    background-color: rgba(231, 248, 255, 0.26);
+    margin-top: 65px;
+    margin-left: 430px;
+}
+
+.pf {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 430px;
+}
+
+.junl {
+    display: inline;
+}
+
+.box_d1 h2 {
+    font-size: 40px;
+    margin: 0;
+    margin-top: 3px;
+}
+
+iframe {
+    width: 300px;
+    height: 500px;
+    border: none;
+    transform: scale(0.8);
 }
