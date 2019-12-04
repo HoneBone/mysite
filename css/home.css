@@ -82,7 +82,35 @@ h2 {
 
 .introduction {
     width: 800px;
-    height: 300px;
-    background-color: teal;
+    height: 500px;
+    background-color: rgb(43, 62, 74);
     margin: 0 auto;
+}
+
+.introduction img {
+    margin: 0 20px;
+}
+
+.introduction p {
+    color: white;
+    margin: 0;
+    font-size: 45px;
+    font-family: 'Quicksand';
+    font-weight: lighter;
+    transform: translateX(145px);
+    margin-top: -115px;
+}
+
+.p1 {
+    color: white;
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Quicksand';
+    font-weight: lighter;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.h3_info {
+    margin-left: 100px;
 }
