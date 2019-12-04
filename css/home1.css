@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    background-image: url("img/home_body_bk.png");
+}
+
+.head {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    /* background-color: rgb(27, 18, 37); */
+    background: -moz-linear-gradient(top, rgb(44, 40, 82), rgb(27, 18, 37));
+    background: -webkit-linear-gradient(top, rgb(44, 40, 82), rgb(27, 18, 37));
+    background: linear-gradient(to bottom, rgb(44, 40, 82), rgb(27, 18, 37));
+}
+
+.tittle h1 {
+    color: cornsilk;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    margin: auto;
+    font-size: 50px;
+}
+
+.main_tittle h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+#ul1 {
+    position: absolute;
+    list-style: none;
+    display: flex;
+    top: 60px;
+    right: 70px;
+}
+
+.li1 {
+    margin-right: 30px;
+    font-size: 25px;
+    background-color: rgb(41, 36, 65);
+    border-radius: 5px;
+}
+
+.li2 {
+    margin-right: 30px;
+    font-size: 25px;
+    background-color: rgb(255, 237, 155);
+    border-radius: 5px;
+}
+
+.li2 a {
+    color: rgb(36, 33, 59);
+}
+
+.create_top1 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(82, 77, 126);
+    filter: drop-shadow(10px 10px 7px #7d6299a2);
+}
+
+.top_tittle1 {
+    position: absolute;
+    width: 90%;
+    height: 80px;
+    margin: 5%;
+    background-color: white;
+}
+
+.top_tittle2 {
+    position: absolute;
+    width: 90%;
+    height: 80px;
+    margin: 5%;
+    background-color: white;
+}
+
+.top_tittle3 {
+    position: absolute;
+    width: 90%;
+    height: 80px;
+    margin: 5%;
+    background-color: white;
+}
+
+.top_tittle1 p {
+    font-size: 60px;
+    margin: 0;
+    margin-top: 5px;
+    transform: translateX(75px);
+    color: rgb(62, 59, 94);
+}
+
+.top_tittle2 p {
+    font-size: 60px;
+    margin: 0;
+    margin-top: 5px;
+    transform: translateX(95px);
+    color: rgb(62, 59, 94);
+}
+
+.top_tittle3 p {
+    font-size: 60px;
+    margin: 0;
+    margin-top: 5px;
+    transform: translateX(95px);
+    color: rgb(62, 59, 94);
+}
+
+.top_image_hover1_clip {
+    position: absolute;
+    top: 120px;
+    left: 23px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.fade1 img {
+    transition-duration: 1.0s;
+    filter: blur(0px);
+    filter: brightness(1);
+}
+
+.fade1 img:hover {
+    filter: blur(6px) brightness(0.9);
+}
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+#ul2 {
+    display: flex;
+    list-style: none;
+}
+
+.li3 {
+    margin: 0 3%;
+}
