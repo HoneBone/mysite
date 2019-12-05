@@ -177,8 +177,7 @@
         
         .box_youtube1 {
             position: absolute;
-            top: 0;
-            bottom: 0;
+            top: 100px;
             left: 17%;
             margin: auto;
             width: 45%;
@@ -197,4 +196,20 @@
         
         #youtube1 {
             margin-top: 14px;
+        }
+        
+        .main1_tittle {
+            position: absolute;
+            top: 20px;
+            left: 17%;
+            margin: auto;
+            width: 45%;
+            height: 15%;
+            background-color: rgba(78, 115, 136, 0.308);
+        }
+        
+        .main1_tittle p {
+            margin: 5px 40%;
+            color: white;
+            font-size: 40px;
         }
