@@ -97,7 +97,7 @@
             font-size: 45px;
             font-family: 'Quicksand';
             font-weight: lighter;
-            transform: translateX(145px);
+            margin-left: 145px;
             margin-top: -115px;
         }
         
@@ -141,8 +141,6 @@
         }
         
         iframe {
-            width: 300px;
-            height: 500px;
             border: none;
             transform: scale(0.8);
         }
@@ -184,10 +182,19 @@
             left: 17%;
             margin: auto;
             width: 45%;
-            height: 75%;
+            height: 70%;
             background-color: rgba(78, 115, 136, 0.308);
         }
         
         .box_youtube1 img {
-            margin-top: 6%;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            transform: scale(1.1);
+            height: 101%;
+        }
+        
+        #youtube1 {
+            margin-top: 14px;
         }
