@@ -116,6 +116,17 @@
         height: 300px;
         background-color: rgb(19, 44, 60);
         margin: 70px 15px;
+        margin-left: 2%;
+        filter: blur(1px);
+    }
+    
+    .box1_5 {
+        margin-top: 60px;
+        width: 30px;
+        height: 300px;
+        background-color: rgb(19, 44, 60);
+        margin: 70px 15px;
+        margin-right: 2%;
         filter: blur(1px);
     }
     
