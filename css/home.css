@@ -53,7 +53,7 @@
         height: 0px;
         background-color: teal;
         opacity: 0;
-        transition: 1s;
+        transition: 5s;
     }
     
     .menu_li {
@@ -87,6 +87,7 @@
     .menu_box:hover+.menu_ver {
         opacity: 1;
         height: 400px;
+        transition: 1s;
     }
     
     .menu_box:hover+.menu_li a {
