@@ -53,7 +53,7 @@
         height: 0px;
         background-color: teal;
         opacity: 0;
-        transition: 5s;
+        transition: 5s cubic-bezier(.89, .01, 1, .37);
     }
     
     .menu_li {
@@ -62,7 +62,12 @@
         top: 11%;
     }
     
-    a {
+    .form a {
+        color: rgb(255, 199, 79);
+        text-decoration-line: none;
+    }
+    
+    .menu_li a {
         color: white;
         text-decoration-line: none;
     }
