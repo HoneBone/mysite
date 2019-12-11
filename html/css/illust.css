@@ -46,14 +46,14 @@ a {
 
 .EDM1 {
     width: 45%;
-    height: 680px;
+    height: 70%;
     background-color: rgb(80, 42, 58);
     margin-right: 10%;
 }
 
 .EDM2 {
     width: 45%;
-    height: 680px;
+    height: 50%;
     background-color: rgb(80, 42, 58);
 }
 
@@ -95,4 +95,5 @@ a {
 
 .day1_illust img {
     margin-left: 10%;
+    margin-bottom: 15px;
 }

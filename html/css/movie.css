@@ -109,3 +109,8 @@ a {
 .EDM_list:hover+.Push {
     opacity: 0;
 }
+
+.main_movie1 {
+    text-align: center;
+    margin: 30px auto;
+}
