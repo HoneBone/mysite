@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+}
+
+.tab {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 92, 127);
+    margin: 0;
+}
+
+#Blog {
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    top: 17px;
+    left: 15px;
+    font-size: 50px;
+    color: white;
+}
+
+#home {
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    font-size: 30px;
+    color: white;
+}
+
+.tab1 {
+    margin: 20px 0;
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.head_tab {
+    position: absolute;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(73, 58, 58);
+}
+
+.main_tab {
+    position: absolute;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    left: 20%;
+    width: 80%;
+    height: 50px;
+    background-color: rgb(73, 58, 58);
+}
+
+.tab_ul {
+    position: absolute;
+    top: 0px;
+    left: 35%;
+}
+
+.TOP_p {
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.main_box {
+    position: absolute;
+    width: 80%;
+    height: 90%;
+    margin: 4% 10%;
+    border-radius: 5px;
+    background-color: rgb(187, 158, 158);
+}
+
+.categoly {
+    position: absolute;
+    right: 5%;
+    font-size: 25px;
+    color: rgb(94, 41, 31);
+}
+
+p.wrap {
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    margin: 5% 10%;
+    color: white;
+}
+
+p.TOP_Tittle {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.line {
+    margin: 10px 0;
+    width: 100%;
+    height: 30px;
+    background: rgb(94, 81, 79);
+}
+
+.cate1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.cate1_box {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.top1 {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(156, 128, 123);
+    overflow: hidden;
+}
+
+.top1 img {
+    position: absolute;
+    width: 100%;
+    transition: all .5s;
+}
+
+.top1_p {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    color: white;
+    transition: .5s;
+    font-size: 70px;
+}
+
+.cate1_ul {
+    position: absolute;
+    margin: auto;
+    left: 230px;
+}
+
+.cate1_ul2 {
+    position: absolute;
+    top: 350px;
+    margin: auto;
+    left: 230px;
+}
+
+#color3 {
+    filter: hue-rotate(200deg);
+}
+
+.blog_pos {
+    text-align: center;
+}
+
+iframe {
+    border: none;
+    background-color: rgb(238, 221, 218);
+}
+
+
+/* //////////default/////////// */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+
+li.tab_li {
+    margin-right: 70px;
+}
+
+li.cate1_li {
+    margin-right: 500px;
+}
